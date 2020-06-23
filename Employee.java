@@ -2,7 +2,8 @@ package com.hcl.beans;
 
 public class Employee{
 	
-	private Long eID;
+	private Long   eID;
+	private String dept;
 	private String name;
 	
     Employee(long eID,String name){
